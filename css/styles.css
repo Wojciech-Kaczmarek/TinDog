@@ -1,5 +1,6 @@
 /***************************TAG SELECTOR***************************/
 
+
 h1 {
   display: block;
   font-size: 2em;
@@ -21,6 +22,7 @@ p {
 body {
   display: block;
   margin: 0px;
+  text-align: center;
 }
 /***************************CLASS SELECTOR***************************/
 .topContainer {
@@ -33,16 +35,47 @@ body {
 
 .pro {
   text-decoration: underline;
+  background-color: #11999e;
+}
+
+.headingContainer {
+  display: none;
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+  position: absolute;
 }
 
 .middleContainer {
+  display: none;
+  position: absolute;
   background-color: red;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  left: 100px;
+  top: 100px;
 }
 
 .bottomContainer {
+  display: none;
+  position: absolute;
   background-color: blue;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  left: 200px;
+  top: 200px;
+
+}
+
+.cloudOne {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+}
+
+.cloudTwo {
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 150px;
 }
