@@ -2,6 +2,7 @@
 
 
 h1 {
+  font-family: 'Sacramento', cursive;
   display: block;
   font-size: 2em;
   margin-block-start: 0px;
@@ -9,6 +10,14 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -20,22 +29,26 @@ p {
 }
 
 body {
+  font-family: 'Merriweather', serif;
   display: block;
   margin: 0px;
   text-align: center;
 }
+
 /***************************CLASS SELECTOR***************************/
 .topContainer {
+  position: relative;
   background-color: #e4f9f5;
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  padding-top: 100px;
 }
 
 .pro {
   text-decoration: underline;
-  background-color: #11999e;
+  background-color: #a6e3e9;
 }
 
 .headingContainer {
@@ -44,6 +57,7 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
+  margin: 0 auto 0 auto;
 }
 
 .middleContainer {
@@ -69,13 +83,14 @@ body {
 
 .cloudOne {
   display: inline-block;
-  position: relative;
-  left: 250px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
 .cloudTwo {
   display: inline-block;
   position: absolute;
-  top: 200px;
-  left: 150px;
+  bottom: 300px;
+  left: 300px;
 }
