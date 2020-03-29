@@ -2,27 +2,29 @@
 
 
 h1 {
+  line-height: 2;
   font-family: 'Sacramento', cursive;
-  display: block;
-  font-size: 2em;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+  margin: 50px auto 0px auto;
+  font-size: 5.625em;
+  color: #66BFBF;
+  
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 p {
+  color: #66BFBF;
   display: block;
-  margin-block-start: 0pxm;
+  margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -36,6 +38,7 @@ body {
 }
 
 /***************************CLASS SELECTOR***************************/
+
 .topContainer {
   position: relative;
   background-color: #e4f9f5;
@@ -43,7 +46,12 @@ body {
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-top: 100px;
+  padding-top: 80px;
+}
+
+.programmer{
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 .pro {
@@ -84,7 +92,7 @@ body {
 .cloudOne {
   display: inline-block;
   position: absolute;
-  right: 300px;
+  right: 200px;
   top: 50px;
 }
 
@@ -92,5 +100,5 @@ body {
   display: inline-block;
   position: absolute;
   bottom: 300px;
-  left: 300px;
+  left: 200px;
 }
