@@ -102,3 +102,27 @@ body {
   bottom: 300px;
   left: 200px;
 }
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skillText {
+  text-align: left;
+}
+
+.computer {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.chillies {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
