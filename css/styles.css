@@ -11,6 +11,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 /***************************CLASS SELECTOR***************************/
 
 .h1 {
@@ -60,4 +69,25 @@ font-family: 'Ubuntu', sans-serif;
 .download-button {
     margin: 5% 3% 5% 0;
 }
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
 
