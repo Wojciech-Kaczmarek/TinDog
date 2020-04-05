@@ -1,6 +1,6 @@
 /***************************ID SELECTOR***************************/
 
-#title{
+#title {
     background-color: #ff4c68;
     color: fff;
 }
@@ -9,6 +9,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    min-width: 400px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 h3 {
@@ -30,7 +39,7 @@ p {
     color: #fff;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 3% 15%;
 }
 
@@ -38,6 +47,7 @@ p {
     width: 60%;
     transform: rotate(25deg);
 }
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;
@@ -90,4 +100,28 @@ font-family: 'Ubuntu', sans-serif;
     color: #ff4c68;
 }
 
+/* Testimonials Section */
 
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
