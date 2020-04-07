@@ -20,25 +20,34 @@ p {
 .big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
-    color: #fff;
 }
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
 }
 
+/* containers */
+
 .container-fluid {
     padding: 7% 15%;
 }
 
-#title {
+/* section */
+
+.colored-section {
     background-color: #ff4c68;
-    color: fff;
-    text-align: left;
+    color: #fff;
 }
+
+.white-section {
+    background-color: #fff;
+}
+
+/* title section */
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .iphone-img {
@@ -47,11 +56,6 @@ p {
     position: absolute;
     right: 30%;
 }
-
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-*/
 
 /* Navigacion Bar*/
 
@@ -85,7 +89,6 @@ font-family: 'Ubuntu', sans-serif;
 #features {
     position: relative;
     z-index: 10;
-    background-color: #fff;
 }
 
 .feature-title {
@@ -109,7 +112,6 @@ font-family: 'Ubuntu', sans-serif;
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -146,13 +148,6 @@ font-family: 'Ubuntu', sans-serif;
 
 .pricing-column {
     padding: 3% 1%;
-}
-
-/* cta Section */
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 /* footer section */
